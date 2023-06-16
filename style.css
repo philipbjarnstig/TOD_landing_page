@@ -40,6 +40,7 @@ ul a
     font-size: 18px;
 }
 
+/* HERO SECTION START */
 .hero-section
 {
     background-color: #1F2937;
@@ -92,3 +93,45 @@ ul a
     justify-content: center;
     color: white;
 }
+/* HERO SECTION END */
+
+/* INFORMATION SECTION START */
+.information-section
+{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.information-section h2
+{
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 800;
+    margin-bottom: 4rem;
+}
+
+.information-content-container
+{
+    display: flex;
+    gap: 3rem;
+    padding-inline: 8rem;
+}
+
+.information-content-item
+{
+    flex: 1;
+    text-align: center;
+    font-size: 18px;
+}
+
+.information-img
+{
+    border: #3882F6 solid 4px;
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+/* INFORMATION SECTION END */
